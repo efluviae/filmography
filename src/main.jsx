@@ -7,7 +7,7 @@ import "./styles/helper.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/filmography">
       <App />
     </BrowserRouter>
   </StrictMode>,
