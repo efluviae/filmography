@@ -1,16 +1,20 @@
-# React + Vite
+# 🎞️ Filmography
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie list app that uses The Movie Database's API, in which you can search and favorite from the most popular movies! Still a work in progress.
 
-Currently, two official plugins are available:
+## ✨ Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* `React 19` - using Context API
+* `Javascript`
+* `CSS`
+* `Vite 7`
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Browse Movies** - Use the search input to search from The Movie Database catalog.
+* **Favorite Movies** - By clicking the heart icon, you add a movie to your favorites.
+* **See your favorites** - By clicking the heart icon in the header, you can see all the movies you've favorited.
 
-## Expanding the ESLint configuration
+## 🧠 The Process
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I wanted to build a project that dealed with APIs, and a movie list seemed like the perfect idea! It's a very basic project at the moment, but I still want to add a lot more features to it, like rating, filtering and a movie details card. 
