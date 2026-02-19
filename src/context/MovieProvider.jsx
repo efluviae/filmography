@@ -35,11 +35,16 @@ export const MovieProvider = ({ children }) => {
 
   const handleSearch = async (e) => {
     e.preventDefault();
-    if (!searchQuery.trim()) return;
     if (loading) return;
 
     setLoading(true);
     try {
+      if (!searchQuery.trim()) {
+        const popularMovies = await getPopularMovies();
+        setMovies(popularMovies);
+        setError(null);
+        return;
+      }
       const searchResults = await searchMovies(searchQuery);
       setMovies(searchResults);
       setError(null);

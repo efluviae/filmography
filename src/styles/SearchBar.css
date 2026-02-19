@@ -1,0 +1,27 @@
+.search-bar {
+  background-color: var(--light-grey);
+}
+
+.search-form {
+  display: flex;
+  gap: 0px;
+  background-color: var(--light-grey);
+}
+
+.search-form__input {
+  background-color: var(--light-grey);
+  width: 100%;
+  border: none;
+  padding: 8px;
+}
+
+.search-form__input::placeholder {
+  color: rgb(182, 177, 187);
+}
+
+.search-form__btn {
+  background-color: var(--light-grey);
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
